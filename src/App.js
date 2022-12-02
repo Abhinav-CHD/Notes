@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { nanoid } from 'nanoid';
+import {nanoid} from 'nanoid';
 import NotesList from './components/NotesList';
 import Search from './components/Search';
 import Header from './components/Header';
@@ -8,13 +8,8 @@ const App = () => {
 	const [notes, setNotes] = useState([
 		{
 			id: nanoid(),
-			text: 'This is my first note!',
-			date: '22/11/2022',
-		},
-		{
-			id: nanoid(),
-			text: 'This is my second note!',
-			date: '22/11/2022',
+			text: 'Welcome! \nCreate your first note by typing into the blue box and clicking the save button.',
+			date: 'MM/DD/YYYY',
 		},
 	]);
 
