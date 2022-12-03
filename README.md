@@ -24,7 +24,7 @@ The game needs following python modules to work stack to work properly:
 
 
 ## Installation
-Make sure you have Node v18 or later install on your system
+Make sure you have Node v18 or later install on your system<br>
 Clone the repository and then execute the following commands.
 ```sh
 cd Notes
